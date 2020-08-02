@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Healdon</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_games">Games</string>
+    <string name="nav_Exercise">Exercise</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_more">More</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="click_on_the_circles_in_the_order">Click on the circles in the order:</string>
+    <string name="_1_a_2_b">1-A-2-B-...</string>
+    <string name="write_names_of_following_animals">Write names of following animals</string>
+    <string name="remember_following_words">Remember following words</string>
+    <string name="enter_numbers_in_forward_order">Enter numbers in forward order</string>
+    <string name="remember_following_numbers">Remember following numbers</string>
+    <string name="subtract_7_serially_from_100_for_5_times">Subtract 7 serially from 100 for 5 times</string>
+    <string name="_100">100</string>
+    <string name="_7">-7 =</string>
+    <string name="select_similarity_between_following_objects">Select similarity between following objects</string>
+</resources>
