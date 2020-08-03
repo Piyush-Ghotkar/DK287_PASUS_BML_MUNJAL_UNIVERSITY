@@ -1,66 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Healdon</string>
-    <string name="nav_home">Home</string>
-    <string name="nav_games">Games</string>
-    <string name="nav_Exercise">Exercise</string>
-    <string name="nav_gallery">Gallery</string>
-    <string name="nav_more">More</string>
-    <string name="game_view_content_description">Game view</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="todo">TODO</string>
-    <string name="click_on_the_circles_in_the_order">Click on the circles in the order:</string>
+
+    <string name="password">पासवर्ड</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="email_address">ईमेल पता</string>
+    <string name="login">/लॉग इन करें</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="loginA">लॉग इन करें.</string>
+    <string name="email_id">ईमेल आईडी</string>
+    <string name="signupA">/साइन अप करे</string>
+    <string name="family_member">परिवार का सदस्य</string>
+    <string name="doctor">चिकित्सक</string>
+    <string name="login_as">इससे लॉगिन करें</string>
+    <string name="passwordA">पासवर्ड</string>
+    <string name="forgot_password">पासवर्ड भूल गए</string>
+    <string name="more_settings">अधिक सेटिंग्स</string>
+    <string name="medication_reminder">दवा अनुस्मारक</string>
+    <string name="sign_out">प्रस्थान करें</string>
+    <string name="detection_test">डिटेक्शन टेस्ट</string>
+    <string name="set_water_drinking_reminder">पानी पीने का रिमाइंडर सेट करें</string>
+<!--    <string name="textview">TextView</string>-->
+    <string name="appointment_status">नियुक्ति की स्थिति</string>
+    <string name="nearby_doctors">आस-पास के डॉक्टर</string>
+    <string name="set_routine">रूटीन सेट करें</string>
+    <string name="reminder_settings">अनुस्मारक सेटिंग्स</string>
+    <string name="yoga_amp_exercise">यग और व्यायाम करें></string>
+    <string name="brain_games">दिमाग के खेल</string>
+    <string name="music">संगीत</string>
+    <string name="healthy_diet_tips">स्वस्थ आहार युक्तियाँ </string>
+    <string name="_10_min_listen">10 मिनट सुनें</string>
+    <string name="_2_min_read">2 मिनट पढ़ा</string>
+    <string name="_5_min_watch">5 मिनट देखें</string>
+    <string name="family_phots_videos">पारिवारिक तस्वीरें / वीडियो</string>
+<!--    <string name="healdon">Healdon</string>-->
+    <string name="_5_min_play">5 मिनट खेल</string>
+    <string name="_7_min_activity">7 मिनट की गतिविधि</string>
+    <string name="an_amazing_thing_happens_when">An Amazing thing happens when</string>
+    <string name="english">ENGLISH</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="diet_tips_amp_recipes">आहार युक्तियाँ और व्यंजनों></string>
+    <string name="today_s_recipe">आज की रेसिपी</string>
+    <string name="whole_ngrains">साबुत अनाज</string>
+    <string name="beans">फलियां</string>
+    <string name="quick_recipes">त्वरित व्यंजनों</string>
+    <string name="green_n_vegetables">हरी सब्जियां</string>
+    <string name="oats">जई</string>
+    <string name="good_for_health">स्वास्थ्य के लिए अच्छा है</string>
+<!--    <string name="textview">TextView</string>-->
+    <string name="appointment_statuss">नियुक्ति की स्थिति</string>
+    <string name="date">तारीख</string>
+    <string name="time">समय</string>
+    <string name="pending">अपूर्ण</string>
+    <string name="musics">संगीत</string>
+    <string name="chill">मज़े</string>
+    <string name="best_of_the_n_70_s">70 के दशक का सर्वश्रेष्ठ</string>
+    <string name="best_of_the_n_80_s">80 के दशक का सर्वश्रेष्ठ</string>
+    <string name="moods_amp_collections">मूड संग्रह></string>
+    <string name="indie">इंडी</string>
+    <string name="pop">पॉप</string>
+    <string name="spiritual">आध्यात्मिक</string>
+    <string name="best_of_the_n_50_s">50 के दशक का सर्वश्रेष्</string>
+    <string name="best_of_the_n_60_s">60 के दशक का सर्वश्रेष्</string>
+<!--    <string name="healdon">Healdon</string>-->
+    <string name="accepted_appointment_requests">स्वीकृत नियुक्ति अनुरोध</string>
+<!--    <string name="healdon">Healdon</string>-->
+    <string name="enter_patient_id_u_id">रोगी आईडी दर्ज करें (U_id)</string>
+    <string name="pending_n_appointments">लंबित नियुक्ति</string>
+    <string name="accepted_n_appointments">स्वीकृत अपॉइंटमेंट</string>
+    <string name="sign_outs">प्रस्थान करें</string>
+<!--    <string name="healdon">Healdon</string>-->
+    <string name="patient_details">रोगी का विवरण</string>
+    <string name="patient_name">रोगी का नाम</string>
+    <string name="age">आयु</string>
+    <string name="appointment_date">मिलने की तारीख</string>
+    <string name="appointment_time">भेंट करने का समय</string>
+    <string name="confirm_appointment">नियुक्ति की पुष्टि करें</string>
+<!--    <string name="healdon">Healdon</string>-->
+    <string name="patient_names">रोगी का ना</string>
+    <string name="game_prediction">खेल भविष्यवाणी</string>
+    <string name="voice_prediction">आवाज की भविष्यवाणी</string>
+    <string name="moca_score">मोका स्कोर</string>
+    <string name="set_routines">रूटीन सेट करें</string>
+<!--    <string name="healdon">Healdon</string>-->
+    <string name="recieved_appointment_requests">प्राप्त नियुक्ति अनुरोध</string>
+<!--    <string name="healdon">Healdon</string>-->
+<!--    <string name="register">Register</string>-->
+<!--    <string name="name">Name</string>-->
+<!--    <string name="email">Email</string>-->
+    <string name="registration_number">पंजीकरण संख्या</string>
+    <string name="clinic_address">क्लिनिक का पता</string>
+<!--    <string name="passwords">Password</string>-->
+    <string name="available_days_e_g_sun_mon">उपलब्ध दिन उदा; सूर्य, सोम</string>
+    <string name="clinic_time_e_g_sun_9_to_14_30_mon_12_to_18">क्लिनिक का समय जैसे सूर्य [९ से १४:३०], सोम [१२ से १ Sun]</string>
+<!--    <string name="confirm_passwords">Confirm Password</string>-->
+<!--    <string name="confirm">Confirm</string>-->
+<!--    <string name="healdon">Healdon</string>-->
+<!--    <string name="email_addresss">Email Address</string>-->
+<!--    <string name="passwords">Password</string>-->
+    <string name="sign_ins">साइन इन करें</string>
+<!--    <string name="sign_in">Sign In</string>-->
+    <string name="don_t_have_an_account">खाता नहीं है?</string>
+    <string name="create_account">खाता बनाएं</string>
+<!--    <string name="healdon">Healdon</string>-->
+    <string name="register">रजिस्टर करें</string>
+    <string name="patient_s_u_id">रोगी का U_id</string>
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+<!--    <string name="passwords">Password</string>-->
+    <string name="confirm_passwords">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="confirm">पुष्टि करें</string>
+<!--    <string name="healdon">Healdon</string>-->
+    <string name="email_addresss">ईमेल पता</string>
+    <string name="passwords">कुंजिका</string>
+<!--    <string name="create_accounts">Create Account</string>-->
+    <string name="don_t_have_an_accounts">खाता नहीं है?</string>
+<!--    <string name="sign_in">Sign In</string>-->
+    <string name="sign_in">साइन इन करें</string>
+    <string name="healdon">Healdon</string>
+<!--    <string name="sign_outs">Sign out</string>-->
+    <string name="upload_npictures">चित्र अपलोड करें</string>
+    <string name="face">चेहरा</string>
+    <string name="velvet">मख़मली</string>
+    <string name="church">चर्च</string>
+    <string name="daisy">गुलबहार</string>
+    <string name="red">लाल</string>
+<!--    <string name="textview">TextView</string>-->
+<!--    <string name="e_g_9567">e.g 9567</string>-->
+<!--    <string name="textview">TextView</string>-->
+    <string name="e_g_9567">जैसे 9567</string>
+    <string name="e_g_banana_orange_fruit">जैसे केले नारंगी = फल</string>
+    <string name="vehicle">वाहन</string>
+    <string name="train_bicycle">ट्रेन - साइकिल =</string>
+    <string name="white">सफेद</string>
+    <string name="window">खिड़की</string>
+    <string name="sun">रवि</string>
+    <string name="wire">तार</string>
+    <string name="run">दौड़ना</string>
+    <string name="numbers">संख्या</string>
+    <string name="tree">पेड़</string>
+    <string name="bird">चिड़िया</string>
+    <string name="watch_ruler">घड़ी - शासक =</string>
+    <string name="grass">घास</string>
+    <string name="leaf">पत्ती</string>
+    <string name="animal">जानवर</string>
+    <string name="click_on_the_words_which_you_remembered">उन शब्दों पर क्लिक करें जिन्हें आपने याद किया था</string>
+    <string name="faces">चेहरा</string>
+    <string name="paper">कागज़</string>
+    <string name="churchs">चर्च</string>
+    <string name="hands">हाथ</string>
+    <string name="dark">अंधेरा</string>
+    <string name="daisys">गुलबहार</string>
+    <string name="velvets">मख़मली</string>
+    <string name="reds">लाल</string>
+    <string name="request_appointment">नियुक्ति का अनुरोध</string>
+    <string name="an_apple_a_day_keeps_the_doctor_away">प्रतिदिन एक सेब डॉक्टर से दूर रखता है!</string>
+<!--    <string name="textview">TextView</string>-->
+<!--    <string name="textview">TextView</string>-->
+<!--    <string name="textview">TextView</string>-->
+    <string name="_0_8_glasses">0/8 glasses</string>
+    <string name="_20_hrs_left">20 Hrs Left</string>
+    <string name="write_appropriate_answers">उचित उत्तर लिखिए</string>
+    <string name="today_s_date">आज की तारीख =</string>
+    <string name="current_month">वर्तमान महीना =</string>
+    <string name="current_year">वर्तमान वर्ष =</string>
+    <string name="this_county">यह देश =</string>
+    <string name="current_day">वर्तमान दिन =</string>
+    <string name="this_city">यह शहर =</string>
+<!--    <string name="textview">TextView</string>-->
+<!--    <string name="textview">TextView</string>-->
+<!--    <string name="textview">TextView</string>-->
+    <string name="yoga">योग</string>
+    <string name="chakki_chalasana">चक्की चालसाना</string>
+    <string name="toe_stand_exercise">पैर की अंगुली का व्यायाम</string>
+    <string name="back_stretch_exercise">बैक स्ट्रेच एक्सरसाइज</string>
+    <string name="inner_thigh_exercise">भीतरी जांघ व्यायाम</string>
+    <string name="ankle_stretch_exercise">टखने का व्यायाम</string>
+    <string name="shoulder_amp_arm_stretch_exercise">कंधे और हाथ खिंचाव व्यायाम></string>
+    <string name="back_leg_raise_exercise">बैक लेग राइज एक्सरसाइज</string>
+    <string name="overhead_press_exercise">ओवरहेड प्रेस व्यायाम</string>
+    <string name="seated_exercise">बैठने का व्यायाम</string>
+    <string name="wall_pushups_exercise">वॉल पुशअप्स एक्सरसाइज</string>
+    <string name="tadasana">Tadasana</string>
+    <string name="standing_exercise">स्थायी व्यायाम</string>
+    <string name="vajrasana">वज्रासन</string>
+
+
+
+
+
+    <string name="nav_home">मुख्य पृष्ठ</string>
+    <string name="nav_games">खेल</string>
+    <string name="nav_Exercise">व्यायाम</string>
+    <string name="nav_gallery">गेलरी</string>
+    <string name="nav_more">अधिक</string>
+    <string name="game_view_content_description">खेल देखें</string>
+
+    <string name="hello_blank_fragment">हैलो खाली टुकड़ा</string>
+    <string name="todo">करने के लिए</string>
+    <string name="click_on_the_circles_in_the_order">आदेश में मंडलियों पर क्लिक करें:</string>
     <string name="_1_a_2_b">1-A-2-B-...</string>
-    <string name="write_names_of_following_animals">Write names of following animals</string>
-    <string name="remember_following_words">Remember following words</string>
-    <string name="enter_numbers_in_forward_order">Enter numbers in forward order</string>
-    <string name="remember_following_numbers">Remember following numbers</string>
-    <string name="subtract_7_serially_from_100_for_5_times">Subtract 7 serially from 100 for 5 times</string>
+    <string name="write_names_of_following_animals">निम्नलिखित जानवरों के नाम लिखें</string>
+    <string name="remember_following_words">निम्नलिखित शब्दों को याद रखें</string>
+    <string name="enter_numbers_in_forward_order">आगे क्रम में संख्या दर्ज करें</string>
+    <string name="remember_following_numbers">निम्नलिखित संख्याओं को याद रखें</string>
+    <string name="subtract_7_serially_from_100_for_5_times">5 से 5 बार के लिए 7 क्रमिक रूप से घटाना</string>
     <string name="_100">100</string>
     <string name="_7">-7 =</string>
-    <string name="select_similarity_between_following_objects">Select similarity between following objects</string>
+    <string name="select_similarity_between_following_objects">निम्नलिखित वस्तुओं के बीच समानता का चयन करें</string>
 
-
-
-    <string name="password">Password</string>
-    <string name="full_name">Full Name</string>
-    <string name="confirm_password">Confirm Password</string>
-    <string name="email_address">Email Address</string>
-    <string name="login">/LOGIN</string>
-    <string name="signup">SIGNUP</string>
-
-
-    <!--Login page    -->
-
-    <string name="loginA">LOGIN.</string>
-    <string name="email_id">Email id</string>
-    <string name="signupA">/SIGNUP.</string>
-    <string name="family_member">Family Member</string>
-    <string name="doctor">Doctor</string>
-    <string name="login_as">Login as</string>
-    <string name="passwordA">Password</string>
-    <string name="forgot_password">Forgot Password</string>
-    <string name="more_settings">More Settings</string>
-    <string name="medication_reminder">Medication Reminder</string>
-    <string name="sign_out">Sign Out</string>
-    <string name="detection_test">Detection Test</string>
-    <string name="set_water_drinking_reminder">Set Water Drinking Reminder</string>
-    <string name="textview">TextView</string>
-    <string name="appointment_status">Appointment Status</string>
-    <string name="nearby_doctors">Nearby Doctors</string>
-    <string name="set_routine">Set Routine</string>
-    <string name="reminder_settings">Reminder Settings</string>
-    <string name="yoga_amp_exercise"><![CDATA[Yoga & Exercise]]></string>
-    <string name="brain_games">Brain Games</string>
-    <string name="music">Music</string>
-    <string name="healthy_diet_tips">Healthy Diet Tips</string>
-    <string name="_10_min_listen">10 min listen</string>
-    <string name="_2_min_read">2 min read</string>
-    <string name="_5_min_watch">5 min watch</string>
-    <string name="family_phots_videos">Family Phots/Videos</string>
-    <string name="healdon">Healdon</string>
-    <string name="_5_min_play">5 min play</string>
-    <string name="_7_min_activity">7 min activity</string>
 
 
 </resources>
