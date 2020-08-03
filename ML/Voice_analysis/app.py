@@ -1,6 +1,4 @@
-
 import pickle
-import flask
 from flask import Flask, jsonify
 import pyrebase
 import parselmouth
@@ -15,6 +13,8 @@ from scipy.stats import ttest_ind
 import os
 import json
 import urllib
+import flask
+import subprocess
 
 
 
@@ -46,16 +46,23 @@ def predict():
     lang=data["language"]
     filename=data["filename"]
     
-    storage_path="Audio/"+str(filename)+".wav"
+    storage_path="audio/"+str(filename)+".mp3"
     try:
         storage = firebase.storage()
-        storage.child(storage_path).download("downloaded.wav")
+        storage.child(storage_path).download("downloaded.mp3")
     except:
         print("Download Failed")
     
-    
-    p="downloaded"
     c=os.getcwd()
+           
+    subprocess.call(['ffmpeg', '-i', c+'/downloaded.mp3',
+                   'converted.wav'])
+
+   
+    print("Successfully Converted .mp3 into .wav")
+    
+    p="converted"
+   
 
     ar_rate=articulation_rate(p,c)
     rate_sph=rate_of_speech(p,c)
@@ -72,15 +79,15 @@ def predict():
     
     
 
-    output = {'voice_result':int(result[0]),
-              'articulation rate': ar_rate,
-             'rate of speech': rate_sph,
-             'number of pauses': no_pause,
-             'speking duration':speak_dur,
-             'original duration': org_dur}
+    output = {'model_prediction':str(int(result[0])),
+              'articulation rate': str(ar_rate),
+             'rate of speech': str(rate_sph),
+             'number of pauses': str(no_pause),
+             'speking duration':str(speak_dur),
+             'original duration': str(org_dur)}
     json_data = json.dumps(output).encode()
     
-    request = urllib.request.Request("https://healdon-916dd.firebaseio.com/u_id/"+u_id+"/test/voice.json", data=json_data, method="PATCH")
+    request = urllib.request.Request("https://healdon-916dd.firebaseio.com/users/"+u_id+"/test/voice.json", data=json_data, method="PATCH")
     try:
         loader = urllib.request.urlopen(request)
     except urllib.error.URLError as e:
@@ -179,6 +186,3 @@ def original_duration(m,p):
 
 if __name__ == '__main__':
     app.run(port = 5000, debug=True,use_reloader=False)
-    
-    
-    
